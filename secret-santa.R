@@ -36,8 +36,7 @@ from_to_emails <- from_to |>
   print()
 
 # Sent emails
-from_to_sent <- from_to_emails |> filter(email_from == "ce50@st-andrews.ac.uk") |> 
-  bind_rows(from_to_emails |> filter(email_from == "ce50@st-andrews.ac.uk")) |> 
+from_to_sent <- from_to_emails |> 
     rowwise() |> 
     mutate(sent = send_email("Your Secret Santa Assignment!", email, email_from))
 
