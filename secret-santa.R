@@ -32,8 +32,7 @@ from_to_emails <- from_to |>
   left_join(people, by = c("email_from" = "email")) |> 
   left_join(people, by = c("email_to" = "email"), suffix = c("_from", "_to")) |> 
   select(-email_to) |> 
-  mutate(email = read_file("email-template.md") |> str_glue()) |> 
-  print()
+  mutate(email = read_file("email-template.md") |> str_glue()) 
 
 # Sent emails
 from_to_sent <- from_to_emails |> 
