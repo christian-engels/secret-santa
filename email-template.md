@@ -1,10 +1,10 @@
-Hi {first_name_from},
+Hi again {first_name_from},
 
-My name is **SantaBot** and only you can see this message - don't respond or forward it!
+**SantaBot** here - there was a gross bug in the Christmas pudding that startled me and screwed up my Secret Santa assignments. Please scratch my last email.
 
-You are the Secret Santa for **{first_name_to}** at our Christmas Get Together, yay!
+For _REAL_ this time: you are the Secret Santa for **{first_name_to}** at our Christmas Get Together, yay-squared!
 
-Simple rules: 
+Again, the simple rules are: 
 - The **budget is £10** and no one is expected to go over. (Seriously!) 
 - **Don't reveal yourself!** We will do so collectively after everyone received their gift. 
 - Participation is optional but do let Christian know in good time to reassign. 
