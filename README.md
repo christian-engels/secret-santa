@@ -25,7 +25,7 @@ You'll need R installed on your system. We recommend using **rig** (the R Instal
 
 1. Clone this festive repo:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/christian-engels/secret-santa.git
 cd secret-santa
 ```
 
